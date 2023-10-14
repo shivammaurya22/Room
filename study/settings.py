@@ -53,7 +53,7 @@ STATIC_ROOT = BASE_DIR/'staticfiles'
 ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
-WSGI_APPLICATION = 'base.wsgi.app'
+WSGI_APPLICATION = 'study.wsgi.app'
 
 
 MIDDLEWARE = [
