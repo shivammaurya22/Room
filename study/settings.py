@@ -47,6 +47,13 @@ INSTALLED_APPS = [
 AUTH_USER_MODEL ='base.User'
 
 
+
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+
+
+WSGI_APPLICATION = 'base.wsgi.app'
+
+
 MIDDLEWARE = [
     
      "corsheaders.middleware.CorsMiddleware",
